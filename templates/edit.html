@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>Edit Student</h2>
+    <form method="POST">
+        <input type="hidden" name="id" value="{{ student.id }}">
+        <p><label>Name: <input type="text" name="name" value="{{ student.name }}" required></label></p>
+        <p><label>Age: <input type="number" name="age" value="{{ student.age }}" required min="1"></label></p>
+        <p><button type="submit" class="btn add-btn">Save Changes</button> <a href="/">Cancel</a></p>
+    </form>
+{% endblock %}
