@@ -22,10 +22,10 @@ source venv/bin/activate
 # Windows:
 # venv\Scripts\activate
 
-# Install Flask
+## Install Flask
 pip install -r requirements.txt
 
-##Run the Interactive REPL
+## Run the Interactive REPL
 python repl.py
 
 ## At the db> prompt, try these example commands
