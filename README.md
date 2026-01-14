@@ -16,7 +16,7 @@ cd pesapal-junior-dev-challenge-2026
 python -m venv venv
 
 # Activate it
-# Linux / macOS / Garuda:
+# Linux / macOS :
 source venv/bin/activate
 
 # Windows:
