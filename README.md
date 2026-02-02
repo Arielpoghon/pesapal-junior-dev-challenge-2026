@@ -37,7 +37,7 @@ SELECT * FROM students WHERE age > 18;
 UPDATE students SET age=21 WHERE name='Alice';
 DELETE FROM students WHERE name='Bob';
 
-## Run the Web Demo
+## Run the Web Demo 
 python web_app.py
 
 SHOW TABLES;
