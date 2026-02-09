@@ -7,7 +7,7 @@ app.secret_key = "super_secret_key_123"  # Required for flash messages
 db = Database()
 
 # Auto-create the students table
-try:
+try:q
     db.create_table("students", [
         ("id", "INTEGER"),
         ("name", "TEXT"),
