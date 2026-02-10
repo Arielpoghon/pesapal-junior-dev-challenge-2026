@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash 
 from database import Database
 
 app = Flask(__name__)
@@ -23,7 +23,7 @@ def index():
     try:
         table = db.get_table("students")
         if table is None:
-            print("Students table not found!")
+            print("Students table not found!")abc
             students = []
         else:
             students = table.select()
