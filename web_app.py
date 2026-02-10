@@ -8,7 +8,7 @@ db = Database()
 
 # Auto-create the students table
 try:
-    db.create_table("students", [
+    db.create_table("students", [ 
         ("id", "INTEGER"),
         ("name", "TEXT"),
         ("age", "INTEGER")
