@@ -23,7 +23,7 @@ def index():
     try:
         table = db.get_table("students")
         if table is None:
-            print("Students table not found!")abc
+            print("Students table not found!")
             students = []
         else:
             students = table.select()
