@@ -11,6 +11,7 @@ try:
         ("name", "TEXT"),
         ("age", "INTEGER")
     ])
+    
     print("Students table created or already exists.")
 except Exception as e:
     print(f"Table creation skipped: {e}")
