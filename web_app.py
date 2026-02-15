@@ -9,7 +9,7 @@ try:
     db.create_table("students", [ 
         ("id", "INTEGER"),
         ("name", "TEXT"),
-        ("age", "INTEGER")
+        ("age", "INTEGER") 
     ])
     
     print("Students table created or already exists.")
