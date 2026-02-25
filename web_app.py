@@ -1,15 +1,15 @@
 from flask import Flask, render_template, request, redirect, url_for, flash 
-from database import Database
-app = Flask(__name__)
+from database import Database 
+app = Flask(__name__) 
 app.secret_key = "super_secret_key_123"  # Required for flash messages
-db = Database()
+db = Database() 
 
 # Auto-create the students table
-try:
-    db.create_table("students", [ 
-        ("id", "INTEGER"),
-        ("name", "TEXT"),
-        ("age", "INTEGER") 
+try: 
+    db.create_table("students", [  
+        ("id", "INTEGER"), 
+        ("name", "TEXT"), 
+        ("age", "INTEGER")  
     ])
     
     print("Students table created or already exists.")
