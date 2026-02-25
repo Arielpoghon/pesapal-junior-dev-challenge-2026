@@ -16,10 +16,10 @@ try:
 except Exception as e:
     print(f"Table creation skipped: {e}")
 
-@app.route('/')
+@app.route('/') 
 def index():
     print("Index route called")  # Debug
-    try:
+    try: 
         table = db.get_table("students")
         if table is None:
             print("Students table not found!")
