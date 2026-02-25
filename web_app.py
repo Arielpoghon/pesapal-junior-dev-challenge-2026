@@ -14,7 +14,7 @@ try:
     
     print("Students table created or already exists.")
 except Exception as e:
-    print(f"Table creation skipped: {e}")
+    print(f"Table creation skipped: {e}") 
 
 @app.route('/') 
 def index():
