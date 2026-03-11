@@ -17,7 +17,7 @@ except Exception as e:
     print(f"Table creation skipped: {e}") 
 
 @app.route('/') 
-def index():
+def index(): 
     print("Index route called")  # Debug
     try: 
         table = db.get_table("students")
