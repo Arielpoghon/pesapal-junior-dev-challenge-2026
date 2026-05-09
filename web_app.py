@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash 
 from database import Database 
+#check here
 app = Flask(__name__) 
 app.secret_key = "super_secret_key_123"  # Required for flash messages
 db = Database() 
