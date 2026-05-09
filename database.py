@@ -1,3 +1,4 @@
+#main
 """
 Core in-memory relational database engine.
 Supports table creation, primary keys, and CRUD operations with basic WHERE filtering.
